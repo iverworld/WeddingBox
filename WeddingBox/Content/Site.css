@@ -42,7 +42,13 @@ h3 {
     text-align: center;
 }
 
-div.album{
-    max-height: 80vh;
-    overflow-y: scroll;
+div.album{        
+    max-height: 80vh;    
+    overflow-y: scroll;    
+}
+
+img.front {    
+    height: 100%;    
+    width: auto;
+    overflow-x: hidden;
 }

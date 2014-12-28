@@ -3,11 +3,13 @@
     ViewBag.Title = "Index";
 }
 
-<div>
-    <div class="album">
+<div class="album">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
         @foreach(var file in Model.filePaths)
         {
             <img src='@(file)' class="img-responsive">
         }
     </div>
+    <div class="col-md-2"></div>
 </div>

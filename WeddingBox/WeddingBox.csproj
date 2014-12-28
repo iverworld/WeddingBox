@@ -191,6 +191,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Resource\leftfront.jpg" />
     <Content Include="Resource\Prewedding\_MG_0509.jpg" />
     <Content Include="Resource\Prewedding\_MG_0510.jpg" />
     <Content Include="Resource\Prewedding\_MG_0511.jpg" />
@@ -199,6 +200,7 @@
     <Content Include="Resource\Prewedding\_MG_0514.jpg" />
     <Content Include="Resource\Prewedding\_MG_0515.jpg" />
     <Content Include="Resource\Prewedding\_MG_0516.jpg" />
+    <Content Include="Resource\rightfront.jpg" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
@@ -210,11 +212,6 @@
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.collageCaption.js" />
-    <Content Include="Scripts\jquery.collagePlus.js" />
-    <Content Include="Scripts\jquery.collagePlus.min.js" />
-    <Content Include="Scripts\jquery.removeWhitespace.js" />
-    <Content Include="Scripts\jquery.removeWhitespace.min.js" />
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
