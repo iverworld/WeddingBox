@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+        <input id="start" type="submit" value="Start Now" />
+</div>
+
+@section scripts{
+    <script>
+        $('#start').on('click', function () {
+            window.location.href = 'https://api.instagram.com/oauth/authorize/?client_id=98b9d5fba0b04b7eb1fd21682d7101b4&redirect_uri=http://localhost:49997/Auth&response_type=code'
+        });
+    </script>
+}
