@@ -5,6 +5,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Script.Serialization;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace TestIG.Controllers
 {
@@ -23,7 +26,9 @@ namespace TestIG.Controllers
             WebClient client = new WebClient();
             var result = client.UploadValues("https://api.instagram.com/oauth/access_token", parameters);
 
-            var response = System.Text.Encoding.Default.GetString(result);
+            var jsDeserializer = new JavaScriptSerializer();
+            var responseString = System.Text.Encoding.Default.GetString(result);
+            var response = (JObject)JsonConvert.DeserializeObject(responseString);
             return View();
         }
     }
